@@ -7,9 +7,16 @@ Below we outline some concepts that are critical for successful implementation o
 The quality of video data, and therefore the results obtained from it, depends heavily on experimental conditions such as lighting, camera position, camera resolution, optical quality, background color, etc. The influence of these parameters on behavioral results has rarely been studied, and most researchers are unfamiliar with the variables to be taken into account and how to adjust them. It is also important to note that parameters such as resolution, frame rate, or encoding configuration can have an exponential impact on the computational cost of processing algorithms. 
 Below we outline some concepts that are critical for successful implementation of digital video recording.
 
-## choose the right tool
+## Choose the right tool
 There are countless relevant video capture solutions available, of all qualities and at all prices, whether it be a consumer camera, security camera, action cam (such as a GoPro), or electronic device embeded camera (such as a Raspberry Pi). Each of these solutions has its pro and cons.
-In the context of experimental laboratory systems, it is more convenient to use a camera connected to a computer, which will facilitate control, synchronization, and data storage. Modern industry USB cameras can be very good options for laboratories that are well versed in prototyping, programming, and software control layers. Above all, in order to choose the right video acquisition system, it is necessary to define the experimental conditions.
+In the context of experimental laboratory systems, it is more convenient to use a camera connected to a computer, which will facilitate control, synchronization, and data storage. Modern industry USB cameras can be very good options for laboratories that are well versed in prototyping, programming, and software control layers. 
+
+Above all, in order to choose the right video acquisition system, it is necessary to define the experimental conditions:
+1- maximum width of the field of view
+2- maximum distance at which the camera can be positioned (space constraints)
+3- spatial resolution, the accuracy required for the analysis (For behavior, we generally use 1mm or less)
+4- speed of the action to be recorded (open field : 8cm/s = 30fps, treadmil :  up to 150cm/s = 200fps)
+5- light intensity and quality (<100lux = low, infrared)
 
 ## Camera Configuration Guidelines
 To obtain biometric behavioral data, digital video files have to be initially recorded. Digital video is spatial and temporal sampled frames presented in a sequence. The spatio-temporal sampling unit which is usually called pixel (picture element) can be represented by a digital value to describe its color and brightness. 
