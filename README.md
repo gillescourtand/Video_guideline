@@ -20,7 +20,11 @@ Above all, in order to choose the right video acquisition system, it is necessar
 
 - 1 and 3 allow you to calculate the pixel resolution needed : ie: arena width = 25cm, resolution = 1mm/pix --> 250 pixels. Following Nyquist's theorem, we can double this number of pixels : 500pix is the higher width of the sensor
 - 4 and 5 guide the choice of sensor characteristics: larger pixel size for greater sensitivity, high-performance signal-to-noise ratio management, infrared filter or not, framerate
-- 4 and sensor size are decisive in choosing the connection type: ie: USB3 camera can transfer images of 1900x1200 at 150fps (only Camera Link will allow high throughput for large images at a high frame rate.)   
+- 4 and sensor resolution are decisive in choosing the connection type: ie: USB3 camera can transfer images of 1900x1200 at 150fps (only Camera Link will allow high throughput for large images at a high frame rate.)
+- 2 and sensor size and resolution are necessary to choose the right lens
+
+  <img width="1698" height="785" alt="Screenshot 2024-12-15 at 18-29-11 Lens Selector Basler AG" src="https://github.com/user-attachments/assets/b72728e4-c7d8-46a4-8b3e-5dd44a52bec0" />
+(Lens Selector Basler AG : https://www.baslerweb.com/fr-fr/tools/lens-selector/)
 
 ## Camera Configuration Guidelines
 To obtain biometric behavioral data, digital video files have to be initially recorded. Digital video is spatial and temporal sampled frames presented in a sequence. The spatio-temporal sampling unit which is usually called pixel (picture element) can be represented by a digital value to describe its color and brightness. 
@@ -61,9 +65,6 @@ Pixel density is determined by the number of photosites per unit area and ensure
 
 #### Lens
 When choosing a lens for your camera, it is essential to ensure that the optic is adapted to size of your sensor and that the resolution of the lens is compatible with the pixel size of the sensor. (Lens resolution is measured in line pairs per millimeter (lp/mm), which directly affects overall performance and image quality. Some guides are available to give lens resolution in line pairs per millimeter, and explain how to calculate their compatibility with your camera for optimum results but the sheer number of camera references and the diversity of sensor sizes, resolutions and sensitivities, as well as the constant evolution of technologies, make any attempt to describe the various combinations tedious and pointless. Serious manufacturers offer a configurator application which, based on the characteristics of your experimental set-up, allows you to define the characteristics of your acquisition system.
-
-<img width="1698" height="785" alt="Screenshot 2024-12-15 at 18-29-11 Lens Selector Basler AG" src="https://github.com/user-attachments/assets/b72728e4-c7d8-46a4-8b3e-5dd44a52bec0" />
-(Lens Selector Basler AG : https://www.baslerweb.com/fr-fr/tools/lens-selector/)
 
 ![focal objectifvsCapteur](https://github.com/user-attachments/assets/a6c40451-a955-448d-9faf-0e0b4e3409e4)
 https://www.edmundoptics.fr/knowledge-center/application-notes/imaging/how-to-choose-a-variable-magnification-lens/
