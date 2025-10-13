@@ -23,7 +23,7 @@ Above all, in order to choose the right video acquisition system, it is necessar
 - 4 and sensor resolution are decisive in choosing the connection type: ie: USB3 camera can transfer images of 1900x1200 at 150fps (only Camera Link will allow high throughput for large images at a high frame rate.)
 - 2 and sensor size and resolution are necessary to choose the right lens
 
-  <img width="1698" height="785" alt="Screenshot 2024-12-15 at 18-29-11 Lens Selector Basler AG" src="https://github.com/user-attachments/assets/b72728e4-c7d8-46a4-8b3e-5dd44a52bec0" />
+ ![Capture_basler_lens](https://github.com/user-attachments/assets/194a9b7e-c5da-4856-b350-2aa03a5aae0e)
 (Lens Selector Basler AG : https://www.baslerweb.com/fr-fr/tools/lens-selector/)
 
 ## Camera Configuration Guidelines
