@@ -12,11 +12,15 @@ There are countless relevant video capture solutions available, of all qualities
 In the context of experimental laboratory systems, it is more convenient to use a camera connected to a computer, which will facilitate control, synchronization, and data storage. Modern industry USB cameras can be very good options for laboratories that are well versed in prototyping, programming, and software control layers. 
 
 Above all, in order to choose the right video acquisition system, it is necessary to define the experimental conditions:
-1- maximum width of the field of view
-2- maximum distance at which the camera can be positioned (space constraints)
-3- spatial resolution, the accuracy required for the analysis (For behavior, we generally use 1mm or less)
-4- speed of the action to be recorded (open field : 8cm/s = 30fps, treadmil :  up to 150cm/s = 200fps)
-5- light intensity and quality (<100lux = low, infrared)
+1. maximum width of the field of view
+2. maximum distance at which the camera can be positioned (space constraints)
+3. spatial resolution, the accuracy required for the analysis (For behavior, we generally use 1mm or less)
+4. speed of the action to be recorded (open field : 8cm/s = 30fps, treadmil :  up to 150cm/s = 200fps)
+5. light intensity and quality (<100lux = low, infrared)
+
+- 1 and 3 allow you to calculate the pixel resolution needed : ie: arena width = 25cm, resolution = 1mm/pix --> 250 pixels. Following Nyquist's theorem, we can double this number of pixels : 500pix is the higher width of the sensor
+- 4 and 5 guide the choice of sensor characteristics: larger pixel size for greater sensitivity, high-performance signal-to-noise ratio management, infrared filter or not, framerate
+- 4 and sensor size are decisive in choosing the connection type: ie: USB3 camera can transfer images of 1900x1200 at 150fps (only Camera Link will allow high throughput for large images at a high frame rate.)   
 
 ## Camera Configuration Guidelines
 To obtain biometric behavioral data, digital video files have to be initially recorded. Digital video is spatial and temporal sampled frames presented in a sequence. The spatio-temporal sampling unit which is usually called pixel (picture element) can be represented by a digital value to describe its color and brightness. 
