@@ -266,12 +266,12 @@ To maintain a clear image even with a low exposure time, the size of the sensor'
   - Use **DC-powered LEDs** or **high-frequency PWM** (>1 kHz).
   - Avoid fluorescent lights.
 
-> **📊 Graph**: Frame Rate vs. Exposure Time vs. Light Intensity  
-> *(Placeholder: Add a graph showing the relationship between these parameters for a given sensor.)*
-
 ---
 
 ### Lighting
+<p align="justify">
+Scene lighting is an important factor in video quality. It is usually limited so as not to disturb the animal in its task and not to influence its behaviour. It may be advisable to use infrared lighting (IR), which does not disturb the animal. Monochrome cameras generally do not have IR filters, which allows videos to be captured without modification. For colour cameras, an IR filter allows for purer colours, and depending on the camera model, it is sometimes possible to remove it quite easily (however, be aware that this may alter the colour rendering in the camera's colour mode). We recommend using filters and corresponding IR illumination sources with a wavelength of light of approximately 850 nm. These wavelengths are advantageous because they allow for illumination of organisms in complete darkness. Furthermore, most animals are incapable of seeing this spectrum of light (https://pmc.ncbi.nlm.nih.gov/articles/PMC9826254/pdf/ETC-41-2342.pdf)
+</p>	
 
 #### Lighting Types
 
@@ -298,6 +298,17 @@ To maintain a clear image even with a low exposure time, the size of the sensor'
 ---
 
 ## 🗜️ Compression Strategies
+<p align="justify">
+The last point concerning the quality of the video file is the recording format. This is an often overlooked but critically important factor, whether for file playback, file size, or, most importantly, the quality of the recorded information. Because raw high-resolution video sequences consume large amounts of digital storage, data are often compressed using a range of available compression and decompression algorithms: “codecs.” Examples include H.264, MPEG, and ProRes. Based on selecting different camera settings, the compression can be performed to different standards that include selection of codecs as well as file digital containers format (AVI, MP4, MKV, MOV...), which is how the file will be packaged with certain metadata and can be identified by different software.
+</p>
+	Video compression reduces file size by removing redundant information and using lossy techniques to approximate the original content. Compression algorithms often smooth out details, which can obscure small movements. Artifacts introduced by compression can also mislead tracking algorithms, resulting in inaccuracies.
+>The early form of video compression was described as the difficulty of transmitting successive images of video can be avoided by only sending the difference between the >successive images, though it was not actually used, however, it became the foundation for the video compression standards today. Video signals are constructed by a sequence of >still images which are better known as video frames. These frames can be encoded for compression using intra frame coding techniques but this compression does not turn out to >be of enough good value for a video. This fact and presence of temporal redundancy inside the video sequence drives the need of inter frame encoding. A prediction of actual >video frame based on previous frame is subtracted from actual frame to form what is called residual frame. The residual frame is then encoded by frame codec.
+
+Zhang et al. explained the concept of typical video compression nowadays as following :  The video compression consists of the encoder compressing the images into the compressed form, which can be stored or transmitted to another location, and the decoder to decompress the images. This process of coding and decoding is also called a codec. There are two types of video coding: 
+- lossless coding: image compression and image reconstruction after decompression without any loss of information.
+- Lossy coding: compresses the images by removing the less important information, which will sacrifice the image quality to the level the human visual system can tolerate.
+>Lossy compression is more widely used today since it allows a much smaller compressed size and is more efficient than the lossless compression. Various video compression >standards have been developed, such as MPEG and H.26X series. H.264/AVC is the most widely used standard nowadays and supports up to 4k resolution of video. H.265, so-called >High Efficiency Video Coding (HEVC), was developed based on H.264/AVC structure and is a more recent standard that has been released in 2013. H.265/HEVC supports up to 8k >resolution of the video
+
 
 ### Codecs and Containers
 
@@ -326,6 +337,10 @@ To maintain a clear image even with a low exposure time, the size of the sensor'
 > **⚠️ Warning**: Avoid **highly compressed** codecs (e.g., H.265 at low bitrates) for **pose estimation** or **tracking**. Artifacts can mislead algorithms.
 
 ### Key Frames and Artifacts
+<p align="justify">
+ Key Frames (I-Frames) are complete images stored periodically in the video. Between key frames, only the differences from the previous frames (P-frames and B-frames) are stored. If key frames are infrequent, the quality and detail of intermediate frames can degrade, making it harder to detect subtle movements accurately. This is because P-frames and B-frames rely on predictive coding, which can introduce artifacts, especially if the animal movements are small and slow.
+To mitigate the impact of key frames and compression on detecting slow or small movements, you can consider the following approaches :
+</p>
 
 - **I-Frames**: Full image snapshots. Critical for accuracy in tracking.
 - **P/B-Frames**: Store differences from previous frames. Can introduce artifacts.
@@ -336,9 +351,6 @@ To maintain a clear image even with a low exposure time, the size of the sensor'
 - **Bitrate**: Use **constant bitrate (CBR)** for consistent quality.
   - Example: **50 Mbps** for 1080p60, **100 Mbps** for 4K30.
 - **CRF (Constant Rate Factor)**: For H.264/H.265, lower CRF = higher quality (18–22 for near-lossless).
-
-> **📊 Graph**: Bitrate vs. File Size vs. Quality  
-> *(Placeholder: Add a graph showing trade-offs for different codecs.)*
 
 ---
 
@@ -427,38 +439,3 @@ Found a mistake or have suggestions? Open an issue or submit a pull request!
 ## 📜 License
 
 This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
-
-
-
-#----------------------------------------------------------------------------------------------
-
-
-
-
-#### Lighting
-<p align="justify">
-Scene lighting is an important factor in video quality. It is usually limited so as not to disturb the animal in its task and not to influence its behaviour. It may be advisable to use infrared lighting, which does not disturb the animal. Monochrome cameras generally do not have IR filters, which allows videos to be captured without modification. For colour cameras, an IR filter allows for purer colours, and depending on the camera model, it is sometimes possible to remove it quite easily (however, be aware that this may alter the colour rendering in the camera's colour mode). We recommend using filters and corresponding IR illumination sources with a wavelength of light of approximately 850 nm. These wavelengths are advantageous because they allow for illumination of organisms in complete darkness. Furthermore, most animals are incapable of seeing this spectrum of light. https://pmc.ncbi.nlm.nih.gov/articles/PMC9826254/pdf/ETC-41-2342.pdf
-Some recommendations to avoid analysis difficulties:
-- Check that the lighting is uniform across the device (prefer indirect lighting, avoid shadows and overexposed or flickering areas).
-- Avoid reflections by using matte or anti-reflective materials, possibly using a polarising filter on the camera lens.
-</p>
-### Compression Strategies
-#### codec
-<p align="justify">
-The last point concerning the quality of the video file is the recording format. This is an often overlooked but critically important factor, whether for file playback, file size, or, most importantly, the quality of the recorded information. Because raw high-resolution video sequences consume large amounts of digital storage, data are often compressed using a range of available compression and decompression algorithms: “codecs.” Examples include H.264, MPEG, and ProRes. Based on selecting different camera settings, the compression can be performed to different standards that include selection of codecs as well as file digital containers (the “format” AVI, MP4, MKV, MOV...), which is how the file will be “packaged” with certain metadata and can be identified by different software. Video compression reduces file size by removing redundant information and using lossy techniques to approximate the original content. Compression algorithms often smooth out details, which can obscure small movements. Artifacts introduced by compression can also mislead tracking algorithms, resulting in inaccuracies
-The early form of video compression was described as the difficulty of transmitting successive images of video can be avoided by only sending the difference between the successive images, though it was not actually used, however, it became the foundation for the video compression standards today. Video signals are constructed by a sequence of still images which are better known as video frames. These frames can be encoded for compression using intra frame coding techniques but this compression does not turn out to be of enough good value for a video. This fact and presence of temporal redundancy inside the video sequence drives the need of inter frame encoding. A prediction of actual video frame based on previous frame is subtracted from actual frame to form what is called residual frame. The residual frame is then encoded by frame codec.
-
-Zhang et al. explained the concept of typical video compression nowadays as following :  The video compression consists of the encoder compressing the images into the compressed form, which can be stored or transmitted to another location, and the decoder to decompress the images. This process of coding and decoding is also called a codec. There are two types of video coding: lossless coding and lossy coding. Lossless coding compresses the images and obtains the reconstructed images after decompression without any loss of information. Lossy coding, however, compresses the images by removing the less important information, which will sacrifice the image quality to the level the human visual system can tolerate. Lossy compression is more widely used today since it allows a much smaller compressed size and is more efficient than the lossless compression. Various video compression standards have been developed, such as MPEG and H.26X series. H.264/AVC is the most widely used standard nowadays and supports up to 4k resolution of video. H.265, so-called High Efficiency Video Coding (HEVC), was developed based on H.264/AVC structure and is a more recent standard that has been released in 2013. H.265/HEVC supports up to 8k resolution of the video
-</p>
-#### Key Frames and Compression:
-<p align="justify">
- Key Frames (I-Frames) are complete images stored periodically in the video. Between key frames, only the differences from the previous frames (P-frames and B-frames) are stored. If key frames are infrequent, the quality and detail of intermediate frames can degrade, making it harder to detect subtle movements accurately. This is because P-frames and B-frames rely on predictive coding, which can introduce artifacts, especially if the animal movements are small and slow.
-To mitigate the impact of key frames and compression on detecting slow or small movements, you can consider the following approaches :
-- Increase Key Frame Frequency: If you have control over the video recording settings, increase the frequency of key frames. This ensures that there are more complete images, reducing the reliance on predictive frames.
-</p>
-## References
-- Henry, J., & Bai, Y. (2022). Digital video recording in behavioral ecotoxicology. Environmental Toxicology and Chemistry, 41(9), 2342–2353. https://doi.org/10.1002/etc.5378
-- Mathis, A., et al. (2018). DeepLabCut: markerless pose estimation of user-defined body parts with deep learning. Nature Neuroscience, 21(9), 1281–1289. https://doi.org/10.1038/s41593-018-0209-y
-- Pereira, T. D., et al. (2022). SLEAP: Multi-animal pose tracking. Nature Methods, 19, 486–495. https://doi.org/10.1038/s41592-022-01426-1
-- Zhang, X., et al. (2019). Video compression fundamentals. IEEE Transactions on Circuits and Systems for Video Technology, 29(1), 1–19.
-- Bradski, G. (2000). The OpenCV Library. Dr. Dobb’s Journal of Software Tools.
