@@ -3,9 +3,8 @@
 > **A Comprehensive Method for Selecting and Implementing Video Acquisition Equipment in Laboratory Settings**
 
 [GitHub Badge](https://github.com/your-repo)  
-[Python 3.8+](https://www.python.org/)  
 [OpenCV](https://opencv.org/)
-
+[FFMPEG](https://www.ffmpeg.org/)
 ---
 
 ## Table of Contents
