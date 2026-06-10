@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="160.76524mm"
+   height="77.017303mm"
+   viewBox="0 0 160.76524 77.017303"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="capture_conditions.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.4878904"
+     inkscape:cx="199.61148"
+     inkscape:cy="291.35211"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1-9-5" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-23.560818,-37.858527)">
+    <rect
+       style="fill:#727272;fill-opacity:1;fill-rule:evenodd;stroke:#bbbbbb;stroke-width:0.211201;stroke-linecap:square;stroke-linejoin:round;stroke-opacity:1"
+       id="rect1"
+       width="78.958359"
+       height="37.112812"
+       x="23.66642"
+       y="37.964127"
+       ry="3.1375558" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="29.344759"
+       y="46.021164"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-size:4.23333px;fill:#bababa;fill-opacity:1;stroke-width:0.264583"
+         x="29.344759"
+         y="46.021164">FIELD OF VIEW</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:69.0199;display:inline;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+       x="22.921417"
+       y="54.073864"
+       id="text2"
+       transform="translate(5.8208336)"><tspan
+         x="22.921417"
+         y="54.073864"
+         id="tspan3">arean size, camera position, angle of view, </tspan><tspan
+         x="22.921417"
+         y="58.483591"
+         id="tspan4">focal length of the lens. </tspan></text>
+  </g>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1-9"
+     transform="translate(63.855716,-37.858527)">
+    <rect
+       style="fill:#727272;fill-opacity:1;fill-rule:evenodd;stroke:#bbbbbb;stroke-width:0.211201;stroke-linecap:square;stroke-linejoin:round;stroke-opacity:1"
+       id="rect1-6"
+       width="78.958359"
+       height="37.112812"
+       x="17.845581"
+       y="37.964127"
+       ry="3.1375558" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="22.994753"
+       y="46.021164"
+       id="text1-2"><tspan
+         sodipodi:role="line"
+         id="tspan1-4"
+         style="font-size:4.23333px;fill:#bababa;fill-opacity:1;stroke-width:0.264583"
+         x="22.994753"
+         y="46.021164">IMAGE CONTRAST, LIGTHNING</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:73.999;display:inline;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+       x="22.921417"
+       y="54.073864"
+       id="text2-3"><tspan
+         x="22.921417"
+         y="54.073864"
+         id="tspan5">The difference in brightness between the </tspan><tspan
+         x="22.921417"
+         y="58.483591"
+         id="tspan6">animal and its background. The single most </tspan><tspan
+         x="22.921417"
+         y="62.893316"
+         id="tspan7">important factor for automated detection.</tspan></text>
+  </g>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1-9-5"
+     transform="translate(-23.560818,8.1847649)">
+    <rect
+       style="fill:#727272;fill-opacity:1;fill-rule:evenodd;stroke:#bbbbbb;stroke-width:0.211201;stroke-linecap:square;stroke-linejoin:round;stroke-opacity:1"
+       id="rect1-6-9"
+       width="78.958359"
+       height="37.112812"
+       x="23.66642"
+       y="31.61412"
+       ry="3.1375558" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="28.815592"
+       y="39.671158"
+       id="text1-2-8"><tspan
+         sodipodi:role="line"
+         id="tspan1-4-8"
+         style="font-size:4.23333px;fill:#bababa;fill-opacity:1;stroke-width:0.264583"
+         x="28.815592"
+         y="39.671158">SPATIAL RESOLUTION</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:68.3086;display:inline;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+       x="22.921417"
+       y="54.073864"
+       id="text2-3-6"
+       transform="translate(5.8208336,-6.3500003)"><tspan
+         x="22.921417"
+         y="54.073864"
+         id="tspan8">How many pixels cover your scene.&#10;</tspan><tspan
+         x="22.921417"
+         y="58.483591"
+         id="tspan9">Higher = more detail. But it costs storage </tspan><tspan
+         x="22.921417"
+         y="62.893316"
+         id="tspan10">and computation. </tspan></text>
+  </g>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1-9-5-1"
+     transform="translate(63.855716,8.1847649)">
+    <rect
+       style="fill:#727272;fill-opacity:1;fill-rule:evenodd;stroke:#bbbbbb;stroke-width:0.211201;stroke-linecap:square;stroke-linejoin:round;stroke-opacity:1"
+       id="rect1-6-9-3"
+       width="78.958359"
+       height="37.112812"
+       x="17.845581"
+       y="31.61412"
+       ry="3.1375558" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="22.465586"
+       y="39.671158"
+       id="text1-2-8-8"><tspan
+         sodipodi:role="line"
+         id="tspan1-4-8-0"
+         style="font-size:4.23333px;fill:#bababa;fill-opacity:1;stroke-width:0.264583"
+         x="22.465586"
+         y="39.671158">TEMPORAL RESOLUTION</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:69.909;display:inline;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+       x="22.921417"
+       y="54.073864"
+       id="text2-3-6-1"
+       transform="translate(0,-6.3500003)"><tspan
+         x="22.921417"
+         y="54.073864"
+         id="tspan11">How many frames per second (fps). Higher </tspan><tspan
+         x="22.921417"
+         y="58.483591"
+         id="tspan12">= smoother capture of fast movement, but </tspan><tspan
+         x="22.921417"
+         y="62.893316"
+         id="tspan13">larger files. </tspan></text>
+  </g>
+</svg>
