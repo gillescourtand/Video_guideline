@@ -34,12 +34,9 @@
 
 ## Introduction
 The quality of video data in scientific experiments depends heavily on **experimental conditions** such as:
-- Lighting
-- Camera position
-- Resolution
-- Optical quality
-- Background color
-- Encoding configuration
+
+![image description](images/capture_conditions.svg)
+
 
 **Why it matters**: Poorly configured setups can introduce biases, artifacts, or loss of critical data, especially in behavioral studies. Additionally, parameters like resolution, frame rate, and compression directly impact **computational costs** for downstream analysis (e.g., pose estimation, tracking).
 
