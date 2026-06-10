@@ -1,11 +1,15 @@
-# Video Capture Setup Guide for Scientific Experiments
-
-> **A Comprehensive Method for Selecting and Implementing Video Acquisition Equipment in Laboratory Settings**
-
-[GitHub Badge](https://github.com/your-repo)  
-[OpenCV](https://opencv.org/)
-[FFMPEG](https://www.ffmpeg.org/)
-
+# Video Capture Setup for Behavioral Experiments
+ 
+**A practical guide for life-science researchers** — from first principles to hardware selection, compression strategies, and illumination choices.
+ 
+![badge](https://img.shields.io/badge/domain-rodent%20behavior-yellowgreen)
+![badge](https://img.shields.io/badge/license-CC%20BY%204.0-blue)
+![badge](https://img.shields.io/badge/compatible-FreezingPoint%20102c-teal)
+![badge](https://img.shields.io/badge/use-opencv-orange)[(https://opencv.org/)]
+![badge](https://img.shields.io/badge/use-ffmpeg-green)(https://www.ffmpeg.org/)
+ 
+> **Who this is for:** Researchers in behavioral neuroscience, ecotoxicology, and ethology who need to record and analyze animal behavior automatically. No prior imaging or electronics expertise is assumed. Equations are included for those who want to go deeper — skip them freely.
+ 
 ---
 
 ## Table of Contents
