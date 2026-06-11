@@ -57,7 +57,6 @@ In the context of experimental laboratory systems, it is more convenient to use 
 
 ![image description](images/setup_workflow.svg)
 
-
 ### Step 1: Define Experimental Constraints
 
 Before selecting a camera, answer these questions (to define the experimental conditions):
