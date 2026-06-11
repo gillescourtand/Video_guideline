@@ -55,7 +55,7 @@ There are countless relevant video capture solutions available, of all qualities
 In the context of experimental laboratory systems, it is more convenient to use a camera connected to a computer, which will facilitate control, synchronization, and data storage. Modern industry USB cameras can be very good options for laboratories that are well versed in prototyping, programming, and software control layers. 
 </p>
 
-
+![image description](images/setup_workflow.svg)
 
 
 ### Step 1: Define Experimental Constraints
