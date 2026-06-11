@@ -70,7 +70,7 @@ Before selecting a camera, answer these questions (to define the experimental co
 | Speed of Action     | 8 cm/s (open field) → 30 fps | Faster movements require higher fps (e.g., 200 fps for treadmill at 150 cm/s). |
 | Lighting Conditions | <100 lux (low light) or IR   | Guides sensor sensitivity (pixel size, ISO, IR filter).                        |
 
- ![Capture_basler_lens](https://github.com/user-attachments/assets/194a9b7e-c5da-4856-b350-2aa03a5aae0e)
+ ![Capture_basler_lens](images/Capture_basler_lens.JPG)
 (Lens Selector Basler AG : https://www.baslerweb.com/fr-fr/tools/lens-selector/)
 
 > **💡 Rule of Thumb**: Use the **Nyquist criterion** to avoid aliasing. If your smallest feature is *X* mm, ensure at least *2X* pixels across it.
