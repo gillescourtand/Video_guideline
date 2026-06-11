@@ -109,10 +109,10 @@ To obtain biometric behavioral data, digital video files have to be initially re
 A good quality video is made up of images that are large enough to be clearly legible, sufficiently resolved to be precise, and sharp in both still and moving areas, with good contrast, while remaining rich in information. In other words, we need sufficient definition so that objects are made up of enough pixels to be well detected, good resolution so that we can distinguish the various elements making up the image, focus so as to avoid blurring in the area observed, and an exposure time adapted to the speed of movement likely to be recorded to avoid motion blur. It's also important to maintain a high dynamic range so that subtle textures and variations are preserved. Finally, we need to pay particular attention to the method used to encode the video file, and especially to the compression mode applied to reduce file size during storage.
 </p>
 The video acquisition system can be divided into four parts:
-	- the camera (sensor + electronics)
-	- the optical system that projects the image onto the sensor
-	- the lighting
-	- the software that controls the camera and encodes the video file
+- the camera (sensor + electronics)
+- the optical system that projects the image onto the sensor
+- the lighting
+- the software that controls the camera and encodes the video file
 
 
 ### Connectivity
@@ -161,13 +161,12 @@ The optical component plays the most important role in image quality and determi
 #### Calculating Required Resolution
 
 1. **Determine FoV and smallest feature**:
-  > **📌 Example**:
-  >- Arena = 25 cm wide, smallest feature = 1 mm.
-  >- **Minimum pixels**: 25 cm / 0.1 cm = **250 pixels** (width).
-  >- **Nyquist**: Double to **500 pixels** to avoid aliasing.
+	> 💡 **Practical tip:**
+  	>- Arena = 25 cm wide, smallest feature = 1 mm.
+  	>- **Minimum pixels**: 25 cm / 0.1 cm = **250 pixels** (width).
+  	>- **Nyquist**: Double to **500 pixels** to avoid aliasing.
 2. **Choose sensor resolution**:
-  - For 500 pixels width, a **1920×1080** sensor (HD) is sufficient (use a 25% crop or digital zoom).
-  - For higher precision, use **2592×1944** (5MP) or **4096×2160** (8MP).
+	>  **📌 Example**: For standard open-field or fear-conditioning boxes (25–30 cm wide), a **640 × 480 px sensor** is generally sufficient for whole-body detection. You need higher resolution only for body-part tracking or sub-millimetre movement analysis.
 3. **Check lens compatibility**:
   - Lens resolution (lp/mm) must match sensor pixel density.
   - Use manufacturer tools (e.g., [Basler Lens Selector](https://www.baslerweb.com/en/tools/lens-selector/)).
@@ -204,14 +203,6 @@ The optical component plays the most important role in image quality and determi
 https://www.edmundoptics.fr/knowledge-center/application-notes/imaging/how-to-choose-a-variable-magnification-lens/
 
 #### Lens Types
-
-
-| **Type**           | **Focal Length**  | **Aperture** | **Use Case**                             |
-| ------------------ | ----------------- | ------------ | ---------------------------------------- |
-| Fixed Focal Length | Fixed (e.g., 8mm) | f/1.4–f/16   | High precision, no zoom needed           |
-| Varifocal          | Adjustable        | f/1.4–f/16   | Flexible FoV adjustment                  |
-| Zoom               | Variable          | f/1.8–f/16   | Dynamic scenes (rare in lab setups)      |
-| Macro              | Short (e.g., 5mm) | f/2.8+       | Close-up imaging (e.g., insect behavior) |
 
 
 > **🔍 Diagram**: Lens-Sensor-FoV Relationship
