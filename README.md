@@ -203,7 +203,6 @@ The optical component plays the most important role in image quality and determi
 > - Required focal length: `(7.2 mm × 500 mm) / 250 mm = 14.4 mm`.
 > - Choose a **12–18 mm lens** (adjust for exact FoV).
 
-![focal objectifvsCapteur](https://github.com/user-attachments/assets/a6c40451-a955-448d-9faf-0e0b4e3409e4)
 https://www.edmundoptics.fr/knowledge-center/application-notes/imaging/how-to-choose-a-variable-magnification-lens/
 
 #### Lens Types
