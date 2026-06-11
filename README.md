@@ -55,6 +55,9 @@ There are countless relevant video capture solutions available, of all qualities
 In the context of experimental laboratory systems, it is more convenient to use a camera connected to a computer, which will facilitate control, synchronization, and data storage. Modern industry USB cameras can be very good options for laboratories that are well versed in prototyping, programming, and software control layers. 
 </p>
 
+
+
+
 ### Step 1: Define Experimental Constraints
 
 Before selecting a camera, answer these questions (to define the experimental conditions):
@@ -109,6 +112,7 @@ To obtain biometric behavioral data, digital video files have to be initially re
 A good quality video is made up of images that are large enough to be clearly legible, sufficiently resolved to be precise, and sharp in both still and moving areas, with good contrast, while remaining rich in information. In other words, we need sufficient definition so that objects are made up of enough pixels to be well detected, good resolution so that we can distinguish the various elements making up the image, focus so as to avoid blurring in the area observed, and an exposure time adapted to the speed of movement likely to be recorded to avoid motion blur. It's also important to maintain a high dynamic range so that subtle textures and variations are preserved. Finally, we need to pay particular attention to the method used to encode the video file, and especially to the compression mode applied to reduce file size during storage.
 </p>
 The video acquisition system can be divided into four parts:
+
 - the camera (sensor + electronics)
 - the optical system that projects the image onto the sensor
 - the lighting
@@ -147,6 +151,7 @@ The optical component plays the most important role in image quality and determi
 | 1"              | 4096×2160              | 4.5                 | Excellent low-light, high DR | Expensive, larger lenses required |
 
 <p align="justify">
+	
 >One might think that simply choosing the sensor with the most pixels would guarantee the best image quality, but the technical reality is not that simple.
 >The sensor is an electronic component made of silicon, copper and glass that collects light from the lens and converts it into electrical information. In the image production >chain, it is then up to the image processing processor to convert this analogue signal into digital information (using 0 and 1). To collect light, the sensor is divided into >multiple small light wells, called photosites, which are usually square and whose size is expressed in microns (µm) or even nanometres (nm). The information from each >individual photosite becomes, after passing through the processor, a pixel (picture element) that makes up the image. 
 
