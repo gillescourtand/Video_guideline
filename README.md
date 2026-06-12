@@ -247,12 +247,23 @@ To maintain a clear image even with a low exposure time, the size of the sensor'
 
 #### Trade-offs
 
-
 | **Parameter** | **Increase**                         | **Decrease**                         |
 | ------------- | ------------------------------------ | ------------------------------------ |
 | Frame Rate    | Smoother motion, better temporal res | Higher bandwidth, larger files       |
 | Exposure Time | More light, better SNR               | Motion blur, requires brighter light |
 | Gain (ISO)    | Brighter image in low light          | More noise                           |
+
+#### Recommended frame rates by behavior
+
+| Behavior | Typical speed | Minimum fps | Recommended fps |
+|---|---|---|---|
+| Freezing (immobility detection) | < 0.5 cm/s | 10 | **25** |
+| Open field exploration | 5–15 cm/s | 25 | **30–50** |
+| Elevated plus-maze | 5–20 cm/s | 25 | **30–50** |
+| Novel object recognition | 5–15 cm/s | 25 | **30–50** |
+| Rotarod performance | up to 80 cm/s | 100 | **150–200** |
+| Gait analysis (treadmill) | up to 150 cm/s | 150 | **200+** |
+| Startle response | very fast (< 100 ms) | 200 | **500+** |
 
 
 #### Avoiding Flicker
