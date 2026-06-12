@@ -1,6 +1,7 @@
 # Video Capture Setup for Behavioral Experiments
  
 **A practical guide for life-science researchers** — from first principles to hardware selection, compression strategies, and illumination choices.
+[![DOI](https://zenodo.org/badge/1060927115.svg)](https://doi.org/10.5281/zenodo.20663040)
  
 ![badge](https://img.shields.io/badge/domain-rodent%20behavior-yellowgreen)
 ![badge](https://img.shields.io/badge/license-CC%20BY%204.0-blue)
