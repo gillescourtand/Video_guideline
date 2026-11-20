@@ -225,9 +225,9 @@ https://www.edmundoptics.fr/knowledge-center/application-notes/imaging/how-to-ch
 
 ![image description](images/framerate.svg)
 <p align="justify">
-To correctly describe behavior or movement, we need to acquire images at an appropriate sampling rate, known as **frame** **rate**. This parameter denotes the number of still frames acquired per second = fps. 
+To correctly describe behavior or movement, we need to acquire images at an appropriate sampling rate, known as <strong>frame rate</strong>. This parameter denotes the number of still frames acquired per second = fps. 
 	>A video comprising a frame rate of 30fps looks fairly smooth enough for most purposes. 
-Another critical parameter for quality acquisition is **exposure** **time**, which determines image sharpness and the amount of light reaching the sensor. This corresponds to the shutter speed of the camera. It is this parameter, adapted to the maximum speed of the events observed, that will allow the animal to remain in focus and its behavior identifiable regardless of its attitude.
+Another critical parameter for quality acquisition is <strong>exposure time</strong>, which determines image sharpness and the amount of light reaching the sensor. This corresponds to the shutter speed of the camera. It is this parameter, adapted to the maximum speed of the events observed, that will allow the animal to remain in focus and its behavior identifiable regardless of its attitude.
 The parameters of frame rate and exposure time are therefore interdependent: 
 	>frame rate defines the level of motion sampling
 	>exposure time defines motion sharpness. 
