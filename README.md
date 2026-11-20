@@ -283,6 +283,8 @@ Scene lighting is an important factor in video quality. It is usually limited so
 
 #### Lighting Types
 
+![image description](images/spectrum.svg)
+
 
 | **Type**        | **Wavelength** | **Pros**                     | **Cons**                                   | **Use Case**                      |
 | --------------- | -------------- | ---------------------------- | ------------------------------------------ | --------------------------------- |
