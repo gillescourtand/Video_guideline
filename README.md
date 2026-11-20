@@ -291,6 +291,9 @@ Scene lighting is an important factor in video quality. It is usually limited so
 | IR LED (940 nm) | 940 nm         | Less visible to some cameras | Lower sensitivity for some sensors         | Stealth imaging                   |
 | Halogen         | Broad spectrum | High intensity, continuous   | Heat output, power consumption             | High-speed imaging (rare in labs) |
 
+<p align="justify">
+All monochrome cameras are sensitive to near-infrared light. Camera manufacturers offer NIR cameras with enhanced sensitivity beyond 850 nm. Some sensors still achieve quantum efficiencies close to 40% in the 850 nm range. Compared to sensors not optimized for near-infrared, this represents a doubling of sensitivity at this wavelength.
+</p>
 
 #### Best Practices
 
