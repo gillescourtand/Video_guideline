@@ -52,7 +52,7 @@ Below we outline some concepts that are critical for successful implementation o
 
 ## 🛠️ Choosing the Right Tool
 <p align="justify">
-There are countless relevant video capture solutions available, of all qualities and at all prices, whether it be a consumer camera, security camera, action cam (such as a GoPro), or electronic device embeded camera (such as a Raspberry Pi). Each of these solutions has its pro and cons.
+There are countless relevant video capture solutions available, of all qualities and at all prices, whether it be a consumer camera, security camera, action cam, or electronic device embeded camera (such as a Raspberry Pi). Each of these solutions has its pro and cons.
 In the context of experimental laboratory systems, it is more convenient to use a camera connected to a computer, which will facilitate control, synchronization, and data storage. Modern industry USB cameras can be very good options for laboratories that are well versed in prototyping, programming, and software control layers. 
 </p>
 
