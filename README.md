@@ -222,6 +222,8 @@ https://www.edmundoptics.fr/knowledge-center/application-notes/imaging/how-to-ch
 ---
 
 ### Frame Rate and Exposure Time
+
+![image description](images/framerate.svg)
 <p align="justify">
 To correctly describe behavior or movement, we need to acquire images at an appropriate sampling rate, known as **frame rate**. This parameter denotes the number of still frames acquired per second. Hence, it is often referred to in the camera settings as the frames per second (fps) parameter. 
 	>A video comprising a frame rate of 30fps looks fairly smooth enough for most purposes. 
