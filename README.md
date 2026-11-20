@@ -74,7 +74,7 @@ Before selecting a camera, answer these questions (to define the experimental co
  ![Capture_basler_lens](images/Capture_basler_lens.JPG)
 (Lens Selector Basler AG : https://www.baslerweb.com/fr-fr/tools/lens-selector/)
 
-> **💡 Rule of Thumb**: Use the **Nyquist criterion** to avoid aliasing. If your smallest feature is *X* mm, ensure at least *2X* pixels across it.
+> **💡 Rule of Thumb**: Use the **Shannon-Nyquist criterion** to avoid aliasing. If your smallest feature is *X* mm, ensure at least *2X* pixels across it.
 
 ### Step 2: Camera Types and Use Cases
 
