@@ -290,7 +290,7 @@ Scene lighting is an important factor in video quality. It is usually limited so
 | --------------- | -------------- | ---------------------------- | ------------------------------------------ | --------------------------------- |
 | Visible LED     | 400–700 nm     | High CRI, natural colors     | May disturb animals                        | General-purpose, color cameras    |
 | IR LED (850 nm) | 850 nm         | Invisible to most animals    | Monochrome only (unless IR filter removed) | Nocturnal behavior, low-light     |
-| IR LED (940 nm) | 940 nm         | Less visible to some cameras | Lower sensitivity for some sensors         | Stealth imaging                   |
+| IR LED (940 nm) | 940 nm         | Invisible to most animals    | Lower sensitivity for some sensors         | Stealth imaging                   |
 | Halogen         | Broad spectrum | High intensity, continuous   | Heat output, power consumption             | High-speed imaging (rare in labs) |
 
 <p align="justify">
